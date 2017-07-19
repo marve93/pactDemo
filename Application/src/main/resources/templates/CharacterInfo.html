@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="UTF-8"/>
+    <title>Character Overview</title>
+</head>
+<body>
+    <h1 th:text="${characterDetails.alterEgo}"></h1>
+    <br/>
+
+    <p> First name : <span th:text="${characterDetails.firstName}"></span> </p>
+    <p> Last name : <span th:text="${characterDetails.lastName}"></span> </p>
+</body>
+</html>

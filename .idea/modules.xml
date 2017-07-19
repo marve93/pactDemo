@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/Application/Application.iml" filepath="$PROJECT_DIR$/Application/Application.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Characters/BackEnd/BackEnd.iml" filepath="$PROJECT_DIR$/Characters/BackEnd/BackEnd.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Characters/Characters.iml" filepath="$PROJECT_DIR$/Characters/Characters.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Characters/Client/Client.iml" filepath="$PROJECT_DIR$/Characters/Client/Client.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Characters/Dto/Dto.iml" filepath="$PROJECT_DIR$/Characters/Dto/Dto.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Quotes/Quotes.iml" filepath="$PROJECT_DIR$/Quotes/Quotes.iml" />
+      <module fileurl="file://$PROJECT_DIR$/pactDemo.iml" filepath="$PROJECT_DIR$/pactDemo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Quotes/BackEnd/quotes-backend.iml" filepath="$PROJECT_DIR$/Quotes/BackEnd/quotes-backend.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Quotes/Client/quotes-client.iml" filepath="$PROJECT_DIR$/Quotes/Client/quotes-client.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Quotes/Dto/quotes-dto.iml" filepath="$PROJECT_DIR$/Quotes/Dto/quotes-dto.iml" />
+    </modules>
+  </component>
+</project>

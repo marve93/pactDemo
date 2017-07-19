@@ -1,0 +1,37 @@
+{
+    "provider": {
+        "name": "characterService"
+    },
+    "consumer": {
+        "name": "application_character_Service"
+    },
+    "interactions": [
+        {
+            "description": "A request for Superman's identity",
+            "request": {
+                "method": "GET",
+                "path": "/characters/find/Superman"
+            },
+            "response": {
+                "status": 200,
+                "headers": {
+                    "Content-Type": "application/json"
+                },
+                "body": {
+                    "alterEgo": "Superman",
+                    "firstName": "Clark",
+                    "lastName": "Kent"
+                }
+            },
+            "providerState": "Superman exists"
+        }
+    ],
+    "metadata": {
+        "pact-specification": {
+            "version": "3.0.0"
+        },
+        "pact-jvm": {
+            "version": "3.4.0"
+        }
+    }
+}

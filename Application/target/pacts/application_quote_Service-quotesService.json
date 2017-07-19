@@ -1,0 +1,39 @@
+{
+    "provider": {
+        "name": "quotesService"
+    },
+    "consumer": {
+        "name": "application_quote_Service"
+    },
+    "interactions": [
+        {
+            "description": "A request for Superman quotes",
+            "request": {
+                "method": "GET",
+                "path": "/quotes/retrieve/Superman"
+            },
+            "response": {
+                "status": 200,
+                "headers": {
+                    "Content-Type": "application/json"
+                },
+                "body": {
+                    "alterEgo": "Superman",
+                    "phrases": [
+                        "I want the means to stop me to be in the hands of a man I can trust with my life.",
+                        "It's not an 'S.' On my world it means 'hope."
+                    ]
+                }
+            },
+            "providerState": "Superman quotes exist"
+        }
+    ],
+    "metadata": {
+        "pact-specification": {
+            "version": "3.0.0"
+        },
+        "pact-jvm": {
+            "version": "3.4.0"
+        }
+    }
+}

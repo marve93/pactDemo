@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="UTF-8"/>
+    <title>Quotes</title>
+</head>
+<body>
+    <h1>Hello Quotes!</h1>
+
+    <ul th:each="quote : ${quotes}">
+        <li>
+            <a th:text="${quote.alterEgo}" th:href="@{/App/View(alterEgo=${quote.alterEgo})}"></a>
+            <ul th:each="phrase : ${quote.phrases}">
+                <li th:text="${phrase}"></li>
+            </ul>
+        </li>
+    </ul>
+</body>
+</html>

@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="Application" />
+        <module name="BackEnd" />
+        <module name="Client" />
+        <module name="Dto" />
+        <module name="quotes-backend" />
+        <module name="quotes-client" />
+        <module name="quotes-dto" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="Application" target="1.5" />
+      <module name="BackEnd" target="1.5" />
+      <module name="Characters" target="1.5" />
+      <module name="Client" target="1.5" />
+      <module name="Dto" target="1.5" />
+      <module name="pactDemo" target="1.5" />
+      <module name="Quotes" target="1.5" />
+      <module name="quotes-backend" target="1.5" />
+      <module name="quotes-client" target="1.5" />
+      <module name="quotes-dto" target="1.5" />
+    </bytecodeTargetLevel>
+  </component>
+</project>
